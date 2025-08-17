@@ -4,9 +4,9 @@ Provided proper attribution is provided, Google hereby grants permission to repr
 
 Ashish Vaswani<sup>∗</sup> Google Brain avaswani@google.com
 
-Llion Jones<sup>∗</sup> Google Research llion@google.com noam@google.com
+Llion Jones<sup>∗</sup> Google Research llion@google.com
 
-Noam Shazeer<sup>∗</sup> Google Brain
+Noam Shazeer<sup>∗</sup> Google Brain noam@google.com
 
 Aidan N. Gomez∗ † University of Toronto aidan@cs.toronto.edu
 
