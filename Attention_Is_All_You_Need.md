@@ -52,7 +52,7 @@ To the best of our knowledge, however, the Transformer is the first transduction
 
 Most competitive neural sequence transduction models have an encoder-decoder structure [\[5,](#page-10-2) [2,](#page-9-0) [35\]](#page-11-0). Here, the encoder maps an input sequence of symbol representations (x1, ..., xn) to a sequence of continuous representations z = (z1, ..., zn). Given z, the decoder then generates an output sequence (y1, ..., ym) of symbols one element at a time. At each step the model is auto-regressive [\[10\]](#page-10-13), consuming the previously generated symbols as additional input when generating the next.
 
-![](_page_2_Figure_0.jpeg)
+![](./images/_page_2_Figure_0.jpeg)
 
 <span id="page-2-1"></span>Figure 1: The Transformer - model architecture.
 
@@ -69,7 +69,7 @@ Decoder: The decoder is also composed of a stack of N = 6 identical layers. In a
 An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum
 of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.
 
-![](_page_3_Figure_0.jpeg)
+![](./images/_page_3_Figure_0.jpeg)
 
 <span id="page-3-0"></span>Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.
 
@@ -350,14 +350,14 @@ Acknowledgements We are grateful to Nal Kalchbrenner and Stephan Gouws for their
 
 #### Attention Visualizations **Input-Input Layer5**
 
-![](_page_12_Figure_1.jpeg)
+![](./images/_page_12_Figure_1.jpeg)
 
 Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb 'making', completing the phrase 'making...more difficult'. Attentions here shown only for the word 'making'. Different colors represent different heads. Best viewed in color.
 
-![](_page_13_Figure_0.jpeg)
+![](./images/_page_13_Figure_0.jpeg)
 
 Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word 'its' for attention heads 5 and 6. Note that the attentions are very sharp for this word.
 
-![](_page_14_Figure_0.jpeg)
+![](./images/_page_14_Figure_0.jpeg)
 
 Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.
